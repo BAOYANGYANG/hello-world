@@ -9,4 +9,9 @@ private:
   const int pages; //章节页数固定，不能改变
   //复制章节对象没有意义，所以禁止
   Chapter2(const Chapter2 &obj) {}
+  
+}
+int main()
+{
+return 0;
 }
